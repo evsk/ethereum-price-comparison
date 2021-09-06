@@ -13,3 +13,6 @@ Note: This project was bootstrapped with [Create React App](https://github.com/f
 Clone the repo to your local machine, run `npm install` and then in the project directory run `npm start`.
 
 Open [http://localhost:3000](http://localhost:3000) to view the project in the browser.
+
+## Example View
+![price_feed](https://user-images.githubusercontent.com/33206106/132235227-525fc883-1bd5-49cc-8e37-851d54426b7e.jpg)
