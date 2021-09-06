@@ -1,23 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import "./App.css";
+import PriceView from "./PriceView.js";
+import EthLogo from "./EthLogo.js";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="container">
+      <h2> Ethereum Price Comparison </h2>
+      <div className="prices">
+        <PriceView version="web2" />
+        <PriceView version="web3" />
+      </div>
+      <EthLogo />
     </div>
   );
 }
