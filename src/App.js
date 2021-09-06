@@ -1,5 +1,4 @@
 import React from "react";
-import "./App.css";
 import PriceView from "./PriceView.js";
 import EthLogo from "./EthLogo.js";
 
